@@ -12,8 +12,23 @@ public:
         num2 = n2;
     }
 
-    T add(T a, T b) { return a + b; /*your code here*/ }
-    T subtract(T a, T b) {return a - b; /*your code here*/ }
-    T multiply(T a, T b) {return a * b; /*your code here*/ }
-    T divide(T a, T b) {return a / b; /*your code here*/ }
+    T add() { return num1 + num2; /*your code here*/ }
+    T subtract() {return num1 - num2; /*your code here*/ }
+    T multiply() {return num1 * num2; /*your code here*/ }
+    T divide() {return num1 / num2; /*your code here*/ }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
